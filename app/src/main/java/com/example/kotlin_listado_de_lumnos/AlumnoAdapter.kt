@@ -24,6 +24,7 @@ class AlumnoAdapter (private val context: Context, private val listAlumnos: List
 
         holder.nombre.text = ItemsViewModel.nombre
         holder.numCuenta.text = ItemsViewModel.numCuenta
+        holder.correo.text = ItemsViewModel.correo
     }
 
     override fun getItemCount(): Int {
@@ -34,7 +35,7 @@ class AlumnoAdapter (private val context: Context, private val listAlumnos: List
         val imgFoto: ImageView = itemView.findViewById(R.id.img_personas)
         val nombre: TextView = itemView.findViewById(R.id.tv_Nombre)
         val numCuenta: TextView = itemView.findViewById(R.id.tv_Num_Cuenta)
-
+        val correo: TextView = itemView.findViewById(R.id.tv_Correo)
     }
 
 }

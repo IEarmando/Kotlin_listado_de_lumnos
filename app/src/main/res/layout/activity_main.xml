@@ -11,8 +11,19 @@
         android:id="@+id/recycler_personas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:itemCount="5"
         />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Floating_Button"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="#00ff78"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        />
 
 
 </FrameLayout>
